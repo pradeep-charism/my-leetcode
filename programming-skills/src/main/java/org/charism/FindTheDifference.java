@@ -36,13 +36,6 @@ public class FindTheDifference {
     }
 
     public char findTheDifference(String s, String t) {
-        for (char c : t.toCharArray()) {
-            if (s.indexOf(c) == -1) {
-                return c;
-            } else {
-                s = s.replaceFirst(String.valueOf(c), "");
-            }
-        }
-        return ' ';
+       return ' ';
     }
 }
